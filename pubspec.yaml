@@ -1,0 +1,47 @@
+name: nishant_s_application1
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  cached_network_image: ^3.3.0
+  flutter_svg: ^2.0.9
+  dotted_border: ^2.1.0
+  intl: ^0.18.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Bruno Ace SC
+      fonts: 
+        - asset: assets/fonts/BrunoAceSCRegular.ttf
+          weight: 400
+    - family: Cambay
+      fonts: 
+        - asset: assets/fonts/CambayRegular.ttf
+          weight: 400
+    - family: BIZ UDPGothic
+      fonts: 
+        - asset: assets/fonts/BIZUDPGothicRegular.ttf
+          weight: 400
+    - family: ABeeZee
+      fonts: 
+        - asset: assets/fonts/ABeeZeeRegular.ttf
+          weight: 400
+    - family: Inter
+      fonts: 
+        - asset: assets/fonts/InterSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/InterRegular.ttf
+          weight: 400
+        - asset: assets/fonts/InterMedium.ttf
+          weight: 500
+        - asset: assets/fonts/InterBold.ttf
+          weight: 700
